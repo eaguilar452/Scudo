@@ -1,2 +1,0 @@
-# Scudo
-Strategy Group Website
