@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: sans-serif; background: #fff; color: #000; }
+
+.grid-row {
+    display: flex;
+    border-top: 1px solid #000;
+}
+
+.box {
+    flex: 1;
+    padding: 30px;
+    border-left: 1px solid #000;
+    min-height: 100px;
+}
+
+.box:last-child { border-right: 1px solid #000; }
+
+.full-width { flex: 0 0 100%; border-right: 1px solid #000; }
+.half-width { flex: 0 0 50%; }
+
+.hero { padding: 80px 0; }
+h1 { font-size: 8vw; margin: 0; text-transform: uppercase; line-height: 0.9; }
+
+/* This makes the bottom border for the whole row */
+.grid-row:last-child { border-bottom: 1px solid #000; }
